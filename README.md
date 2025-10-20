@@ -65,14 +65,25 @@ At each generation:
 ## ⚙️ Usage
 
 ### **Command-line Parameters**
-Typical arguments include:
-- `--representation` → `"binary"` or `"real"`
-- `--population-size` → number of individuals *p*
-- `--generations` → number of iterations *g*
-- `--pc` → crossover probability
-- `--pm` → mutation probability
-- `--k` → tournament size
+
+You can configure the genetic algorithm with the following arguments:
+
+- `-n`, `--dimension` → dimension of the Schwefel function  
+- `-r`, `--representation` → `"binary"` or `"real"`  
+- `-p`, `--population_size` → number of individuals *p*  
+- `-u`, `--uniform_crossover` → `1` for uniform crossover, `0` otherwise  
+- `-c`, `--pc` → crossover probability  
+- `-m`, `--pm` → mutation probability  
+- `-g`, `--generations` → number of generations *g*  
+- `-k`, `--tournament_size` → tournament size *k*  
+- `-d`, `--debug` → enable debug mode for detailed output  
+
+---
 
 ### **Example Run**
+
 ```bash
 python main.py -n 10 -r binary -p 100 -u 0 -c 0.9 -m 0.1 -g 500
+
+
+
