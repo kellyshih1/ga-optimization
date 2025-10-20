@@ -15,9 +15,9 @@ Both variants share a similar structure, differing only in how individuals are r
 
 The algorithm evolves a population of candidate solutions through several generations to minimize the Schwefel function:
 
-\[
+$$
 f(\vec{x}) = 418.98291N - \sum_{i=1}^N x_i \sin(\sqrt{|x_i|})
-\]
+$$
 
 ---
 
