@@ -1,4 +1,4 @@
-# 🧬 Genetic Algorithm for the Schwefel Function Optimization
+# 🧬 Genetic Algorithm in Numerical Optimization
 
 This project implements a **Genetic Algorithm (GA)** for optimizing the **Schwefel function**, using both **binary** and **real-valued** representations.  
 It includes modular, object-oriented implementations of all core GA components — including initialization, selection, crossover, mutation, and survivor selection.
